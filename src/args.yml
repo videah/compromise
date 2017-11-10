@@ -1,0 +1,28 @@
+name: compromise
+version: "1.0"
+author: videah <videah@selfish.systems>
+about: "
+
+twitter image compression fixing tool
+
+\nby default twitter compresses PNG images to save space.
+\nthis can be circumvented by making 1 pixel slightly transparent,
+\nin which case the server just stores it uncompressed. this tool
+\nautomates this process making it easy to upload images without losing quality."
+
+args:
+    - INPUT:
+        help: path to image to be fixed
+        required: true
+        short: i
+        long: input
+        takes_value: true
+    - OUTPUT:
+        help: path to save resulting fixed file 
+        short: o
+        long: output
+        takes_value: true
+    - silent:
+        help: run (and fail) silently
+        short: s
+        long: silent
