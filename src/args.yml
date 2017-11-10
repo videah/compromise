@@ -1,5 +1,5 @@
 name: compromise
-version: "1.0"
+version: "0.1.0"
 author: videah <videah@selfish.systems>
 about: "
 
@@ -17,11 +17,13 @@ args:
         short: i
         long: input
         takes_value: true
+        index: 1
     - OUTPUT:
         help: path to save resulting fixed file 
         short: o
         long: output
         takes_value: true
+        index: 2
     - silent:
         help: run (and fail) silently
         short: s
