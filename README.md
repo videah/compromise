@@ -41,5 +41,6 @@ Go check out [ravenworks](https://github.com/omgitsraven)'s [tool](http://ravenw
 
 ## TODO
 - [ ] GUI Version
+- [ ] MacOS Version
 - [ ] Improve silence handling
 - [ ] Allow multiple images to be fixed at once
