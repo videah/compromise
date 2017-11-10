@@ -29,7 +29,7 @@ OPTIONS:
 
 ## Results
 At the time of writing (10th November, 2017) the tool gives the following boost to image quality.
-These are from the same picture uploaded twice, one before using `compromise`, and after using it.
+These are from the same picture uploaded twice, one before using `compromise`, and one after using it.
 ![](before-after.png?raw=true)
 
 ## License
