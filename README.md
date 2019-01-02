@@ -1,6 +1,9 @@
 # compromise
 An image compression fixing tool for Twitter users.
 
+**Note:**
+**Starting on Feb 11th 2019 this tool will no longer function due to [changes in how twitter handle PNG conversion.](https://twittercommunity.com/t/upcoming-changes-to-png-image-support/118695)**
+
 By default Twitter compresses PNG images to save space.
 This can be circumvented by making 1 pixel slightly transparent,
 in which case the server just stores it uncompressed. This tool
